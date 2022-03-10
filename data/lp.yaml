@@ -7,7 +7,7 @@
 
 train: ./balance_outputv2/images/train/
 val: ./balance_outputv2/images/val/
-test: ./balance_outputv2/images/val/
+test: ./balance_outputv2/images/test/
 
 # number of classes
 nc: 1
