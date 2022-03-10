@@ -1,0 +1,16 @@
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC/
+# Train command: python train.py --data voc.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /VOC
+#     /yolov5
+
+train: ./balance_outputv2/images/train/
+val: ./balance_outputv2/images/val/
+test: ./balance_outputv2/images/val/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['BC']
