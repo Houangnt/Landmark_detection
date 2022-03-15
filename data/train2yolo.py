@@ -147,4 +147,3 @@ for i in range(len(aa.imgs_path)):
             str_label = str_label.replace(',', '') + '\n'
             f.write(str_label)
     cv2.imwrite(save_img_path, img)
-
