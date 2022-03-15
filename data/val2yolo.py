@@ -58,4 +58,3 @@ if __name__ == '__main__':
 		for label in labels:
 			f.write(label + '\n')
 		f.close()
-
