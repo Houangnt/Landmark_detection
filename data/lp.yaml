@@ -5,12 +5,12 @@
 #     /VOC
 #     /yolov5
 
-train: ./balance_outputv2/images/train/
-val: ./balance_outputv2/images/val/
-test: ./balance_outputv2/images/test/
+train: /content/Landmark_detection/data/plate_data/images/train/
+val: /content/Landmark_detection/data/plate_data/images/val/
+test: /content/Landmark_detection/data/plate_data/images/test/
 
 # number of classes
 nc: 1
 
 # class names
-names: ['BC']
+names: ['plate']
