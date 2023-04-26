@@ -43,7 +43,8 @@ def main(args):
 
                 f_width, f_height = round(float(width / v), 6), round(float(height / u), 6)
 
-                label_id = str(id_list[data['shapes'][i]['label']])
+                #label_id = str(id_list[data['shapes'][i]['label']])
+                label_id = data['shapes'][i]['label']
 
                 str_points = ''
                 for port in obj_ports:
