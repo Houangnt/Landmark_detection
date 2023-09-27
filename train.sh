@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --weights yolov5s_v6.2.pt --imgsz 640 --data data/coco.yaml --cfg models/yolov5s.yaml --hyp data/hyps/hyp.scratch-high-stamp.yaml --optimizer Adam --device 0 --name landmark_detect_v1
